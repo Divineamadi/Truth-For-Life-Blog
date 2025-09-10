@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Truth For Life</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#articles">Skip to articles</a>
+
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand" href="index.html" aria-label="Truth For Life home">
+        <span class="brand-mark">✦</span><span class="brand-name">Truth For Life</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <ul class="menu">
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="about.html" target="_blank">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="hero">
+      <div class="container">
+        <h1>Read what matters. Live what’s true.</h1>
+        <p class="hero-sub">Simple, beautiful articles rooted in faith, truth, life, and health.</p>
+
+        <div class="controls">
+          <input id="search" type="search" placeholder="Search articles..." aria-label="Search articles" />
+          <div class="chip-row" role="tablist" aria-label="Filter by category">
+            <button class="chip is-active" data-filter="all">All</button>
+            <button class="chip" data-filter="faith">Faith</button>
+            <button class="chip" data-filter="life">Life</button>
+            <button class="chip" data-filter="health">Health</button>
+            <button class="chip" data-filter="fitness">Fitness</button>
+            <button class="chip" data-filter="food">Food</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="articles" class="section articles">
+      <div class="container">
+        <div class="section-head">
+          <h2>Latest Articles</h2>
+          <p class="section-sub">Fresh reads from the Truth For Life team</p>
+        </div>
+
+        <div id="article-list" class="grid" aria-live="polite"></div>
+        <p id="list-empty" class="empty hidden">No articles match your search.</p>
+        <p id="list-error" class="error" role="alert"></p>
+
+        <div class="pagination">
+          <button id="load-more" class="btn btn-ghost">Load more</button>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="contact" class="section muted">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Email: hswinspires@gmail.com
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <span class="brand-mark">✦</span><span class="brand-name">Truth For Life</span>
+        </a>
+        <p class="foot-note">Truth • Life • Health</p>
+      </div>
+      <p class="copyright">© <span id="year"></span> Truth For Life. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/app.js" defer></script>
+</body>
+</html>
