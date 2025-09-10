@@ -344,14 +344,21 @@ a {
 
 @media (max-width: 480px){
 .hero h1 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .hero-sub {
-    font-size: 1rem;
+    font-size: .9rem;
   }
   .post-content p {
   font-size: .9rem;
 }
+  
+  .brand {
+    font-size: .8rem;
+  }
+  .primary-nav {
+    font-size: .8rem;
+  }
 }
 
 /**----- Related Article -----**/
