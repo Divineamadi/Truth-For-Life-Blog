@@ -320,8 +320,7 @@ a {
   }
   .hero-sub {
     font-size: 1rem;
-  }
-  
+  }  
 }
 
 
@@ -346,7 +345,7 @@ a {
 .hero h1 {
     font-size: 1.1rem;
   }
-  .hero-sub {
+  .hero-sub .section-head .card {
     font-size: .9rem;
   }
   .post-content p {
@@ -357,6 +356,9 @@ a {
     font-size: .8rem;
   }
   .primary-nav {
+    font-size: .8rem;
+  }
+  .chip .related {
     font-size: .8rem;
   }
 }
