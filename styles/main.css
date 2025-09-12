@@ -332,7 +332,7 @@ a {
     font-size: clamp(1.35rem, 5vw + .6rem, 2rem); 
     line-height: 1.25; 
   }
-  .hero-sub { 
+  .hero-sub .chip-row .related .card .section-head { 
     font-size: .98rem; 
   }
 .post-content p {
@@ -358,7 +358,7 @@ a {
   .primary-nav {
     font-size: .8rem;
   }
-  .chip .related {
+  .chip-row .related {
     font-size: .8rem;
   }
 }
